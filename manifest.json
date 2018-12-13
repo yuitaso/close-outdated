@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Close Outdated",
+  "version": "0.1",
+  "description": "Outdatedのファイルを閉じる",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
